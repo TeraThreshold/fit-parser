@@ -1,0 +1,20 @@
+# Binaries
+/fitparse
+/cmd/fitparse/fitparse
+*.exe
+*.test
+
+# Coverage and profiles
+*.out
+*.cover
+*.coverprofile
+coverage.*
+
+# FIT files: only synthetic fixtures under testdata/ are committed
+*.fit
+*.FIT
+!**/testdata/**/*.fit
+!**/testdata/**/*.FIT
+
+# macOS
+.DS_Store

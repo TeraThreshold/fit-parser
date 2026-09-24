@@ -1,0 +1,5 @@
+module github.com/TeraThreshold/fit-parser
+
+go 1.24.0
+
+require github.com/muktihari/fit v0.27.1
